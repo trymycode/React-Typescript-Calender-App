@@ -1,0 +1,6 @@
+.button {
+  background: var(--color-primary-100);
+  color: var(--color-gray-100);
+  width: var(--spacing-2);
+  height: var(--spacing-2);
+}
