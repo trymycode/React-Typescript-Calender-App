@@ -1,5 +1,4 @@
-import { CalendarButton } from "../../elements";
-import { CalendarRow } from "../../modules";
+import { CalendarRow } from "@modules/index";
 
 const days = ["Mon", "Tue", "Wed"];
 

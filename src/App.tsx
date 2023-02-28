@@ -1,4 +1,4 @@
-import { CalendarPage } from "./pages";
+import { CalendarPage } from "@pages/index";
 
 function App() {
   return <CalendarPage />;
