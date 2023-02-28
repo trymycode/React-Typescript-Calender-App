@@ -3,4 +3,5 @@
   color: var(--color-gray-100);
   width: var(--spacing-2);
   height: var(--spacing-2);
+  padding: var(--spacing-1);
 }

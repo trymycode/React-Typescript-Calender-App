@@ -3,5 +3,10 @@ export interface CalendarButtonProps {
 }
 
 export interface CalendarRowProps {
+  style?: "calendar-header";
   listOfLabels: string[] | number[];
+}
+
+export interface CalendarProps {
+  date: Date;
 }

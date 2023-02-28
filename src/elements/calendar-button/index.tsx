@@ -1,4 +1,4 @@
-import { CalendarButtonProps } from "../../utils";
+import { CalendarButtonProps } from "@utils/types";
 import styles from "./calendar-button.module.css";
 
 export const CalendarButton = ({ label }: CalendarButtonProps) => {

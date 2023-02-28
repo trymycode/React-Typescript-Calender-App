@@ -1,7 +1,5 @@
-import { CalendarRow } from "@modules/index";
-
-const days = ["Mon", "Tue", "Wed"];
+import { Calendar } from "@modules/index";
 
 export const CalendarPage = () => {
-  return <CalendarRow listOfLabels={days} />;
+  return <Calendar date={new Date()} />;
 };
