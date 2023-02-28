@@ -1,1 +1,1 @@
-export const CustomConstant = "CustomConstant";
+export const CALENDAR_HEADER = "calendar-header";

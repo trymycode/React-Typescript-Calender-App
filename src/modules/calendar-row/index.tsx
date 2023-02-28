@@ -9,7 +9,7 @@ export const CalendarRow = ({
 }: CalendarRowProps) => {
   return (
     <div
-      className={`${styles.row} ${isFirstRow && styles.rowReverse}  ${
+      className={`${styles.row} ${isFirstRow ? styles.rowReverse : ""} ${
         style ? style : ""
       }`}
     >

@@ -46,3 +46,9 @@ export const getCalendarDates = (
   // Return final calendarDates array
   return calendarDateArray;
 };
+
+export const getMonthFromString = (date: string) => {
+  const [day, month, year] = date.split("-").map((elem) => Number(elem));
+  const parsedDate = new Date(year, month - 1, day);
+  return parsedDate.toLocaleString("en-US", { year: "numeric", month: "long" });
+};

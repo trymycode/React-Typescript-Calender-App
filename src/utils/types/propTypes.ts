@@ -1,3 +1,4 @@
+import { CALENDAR_HEADER } from "..";
 import { CalendarDate } from "./generics";
 
 export interface CalendarButtonProps {
@@ -6,11 +7,11 @@ export interface CalendarButtonProps {
 }
 
 export interface CalendarRowProps {
-  style?: "calendar-header";
+  style?: typeof CALENDAR_HEADER;
   listOfLabels: CalendarDate[];
   isFirstRow?: boolean;
 }
 
 export interface CalendarProps {
-  date: Date;
+  date: string;
 }

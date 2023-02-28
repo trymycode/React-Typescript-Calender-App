@@ -11,8 +11,8 @@ code {
 }
 
 :root {
-  --color-primary-100: black;
-  --color-gray-100: #aaa;
+  --color-primary-100: #08161b;
+  --color-gray-100: #809193;
 
   --spacing-1: 0.5rem;
   --spacing-2: 1rem;

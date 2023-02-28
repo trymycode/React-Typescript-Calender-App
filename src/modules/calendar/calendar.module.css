@@ -1,4 +1,6 @@
 .calendar {
-  width: calc(7 * var(--space-4));
+  width: calc(7 * var(--spacing-4));
+  padding: var(--spacing-1);
   background: var(--color-primary-100);
+  color: var(--color-gray-100);
 }
