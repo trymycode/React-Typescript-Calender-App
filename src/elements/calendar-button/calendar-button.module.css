@@ -1,7 +1,15 @@
-.button {
+.calendarButton {
   background: var(--color-primary-100);
   color: var(--color-gray-100);
   width: var(--spacing-2);
   height: var(--spacing-2);
   padding: var(--spacing-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectedDate {
+  background: var(--color-gray-100);
+  color: var(--color-primary-100);
 }

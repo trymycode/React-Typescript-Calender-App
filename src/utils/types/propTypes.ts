@@ -1,10 +1,14 @@
+import { CalendarDate } from "./generics";
+
 export interface CalendarButtonProps {
   label: string | number;
+  isSelected?: boolean;
 }
 
 export interface CalendarRowProps {
   style?: "calendar-header";
-  listOfLabels: string[] | number[];
+  listOfLabels: CalendarDate[];
+  isFirstRow?: boolean;
 }
 
 export interface CalendarProps {

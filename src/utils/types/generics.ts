@@ -1,1 +1,4 @@
-export type CustomNumber = number;
+export interface CalendarDate {
+  label: number | string;
+  isSelected: boolean;
+}

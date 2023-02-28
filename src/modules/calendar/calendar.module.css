@@ -1,0 +1,4 @@
+.calendar {
+  width: calc(7 * var(--space-4));
+  background: var(--color-primary-100);
+}
