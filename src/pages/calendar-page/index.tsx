@@ -1,5 +1,10 @@
-import { Calendar } from "@modules/index";
+import { Calendar, DateForm } from "@modules/index";
 
 export const CalendarPage = () => {
-  return <Calendar date={"05-07-2022"} />;
+  return (
+    <>
+      <DateForm onSubmit={console.log} />
+      <Calendar date={"05-07-2022"} />;
+    </>
+  );
 };

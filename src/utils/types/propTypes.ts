@@ -1,3 +1,4 @@
+import { ChangeEvent, FormEvent } from "react";
 import { CALENDAR_HEADER } from "..";
 import { CalendarDate } from "./generics";
 
@@ -14,4 +15,15 @@ export interface CalendarRowProps {
 
 export interface CalendarProps {
   date: string;
+}
+
+export interface InputTextProps {
+  placeholder?: string;
+  value: number | string;
+  onChange: (event: ChangeEvent) => void;
+}
+
+export interface ButtonProps {
+  text: string;
+  onClick: (event: FormEvent) => void;
 }
