@@ -3,7 +3,7 @@ import styles from "./input-text.module.css";
 
 export const InputText = ({
   placeholder = "Please enter date here",
-  value,
+  value = "",
   onChange,
 }: InputTextProps) => (
   <input

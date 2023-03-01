@@ -65,7 +65,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js --coverage --watchAll=false --runInBand"
   },
   "eslintConfig": {
     "extends": [
@@ -116,7 +116,10 @@
     "modulePaths": [],
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
-      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
+      "^@utils/(.*)$": "<rootDir>/src/utils/$1",
+      "^@modules/(.*)$": "<rootDir>/src/modules/$1",
+      "^@elements/(.*)$": "<rootDir>/src/elements/$1"
     },
     "moduleFileExtensions": [
       "web.js",

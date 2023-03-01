@@ -5,25 +5,31 @@ import { CalendarDate } from "./generics";
 export interface CalendarButtonProps {
   label: string | number;
   isSelected?: boolean;
+  areCalendarDays?: boolean;
 }
 
 export interface CalendarRowProps {
   style?: typeof CALENDAR_HEADER;
   listOfLabels: CalendarDate[];
   isFirstRow?: boolean;
+  areCalendarDays?: boolean;
 }
 
 export interface CalendarProps {
   date: string;
 }
 
+export interface CalendarMonthProps {
+  date: string;
+}
+
 export interface InputTextProps {
   placeholder?: string;
-  value: number | string;
+  value?: number | string;
   onChange: (event: ChangeEvent) => void;
 }
 
 export interface ButtonProps {
-  text: string;
+  text?: string;
   onClick: (event: FormEvent) => void;
 }

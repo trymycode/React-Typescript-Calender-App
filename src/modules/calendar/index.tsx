@@ -28,7 +28,12 @@ export const Calendar = ({ date }: CalendarProps) => {
       />
       {calendarDates.map((calendarRow, index) => {
         return (
-          <CalendarRow listOfLabels={calendarRow} isFirstRow={index === 0} />
+          <CalendarRow
+            listOfLabels={calendarRow}
+            areCalendarDays
+            isFirstRow={index === 0}
+            key={index}
+          />
         );
       })}
     </div>
