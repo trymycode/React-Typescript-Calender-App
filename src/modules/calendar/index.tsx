@@ -13,10 +13,7 @@ export const Calendar = ({ date }: CalendarProps) => {
 
   useEffect(() => {
     const calendarDatesArray = getCalendarDates(days, date);
-    setCalendarDates((prev) => {
-      console.log({ calendarDatesArray });
-      return calendarDatesArray;
-    });
+    setCalendarDates(calendarDatesArray);
   }, [date]);
 
   return (

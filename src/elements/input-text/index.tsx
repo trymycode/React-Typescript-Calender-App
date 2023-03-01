@@ -1,4 +1,5 @@
 import { InputTextProps } from "@utils/index";
+import styles from "./input-text.module.css";
 
 export const InputText = ({
   placeholder = "Please enter date here",
@@ -10,5 +11,6 @@ export const InputText = ({
     placeholder={placeholder}
     value={value}
     onChange={onChange}
+    className={styles.inputText}
   />
 );

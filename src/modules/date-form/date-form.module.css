@@ -1,0 +1,6 @@
+.dateForm {
+  width: calc(7 * var(--spacing-4) + var(--spacing-2));
+  display: flex;
+  justify-content: space-between;
+  margin: var(--spacing-4) 0;
+}

@@ -1,0 +1,8 @@
+.inputText {
+  padding: var(--spacing-1);
+  flex-grow: 1;
+}
+
+.inputText::placeholder {
+  font-size: var(--font-size-1-2);
+}
